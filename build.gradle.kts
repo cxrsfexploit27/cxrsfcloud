@@ -83,7 +83,7 @@ subprojects {
         implementation("org.mozilla:rhino:1.7.15")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
-        // IMPORTANT: Do not bump Jackson above 2.13.1, as newer versions will
+        // IMPORTANT: Do not bump Jackson above 2.13.1, as newer versions will sudah di tambah
         // break compatibility on older Android devices.
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1") // JSON Parser
     }
