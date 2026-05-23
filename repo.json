@@ -1,0 +1,9 @@
+{
+    "name": "Cxrsf Repo",
+    "iconUrl": "https://avatars.githubusercontent.com/u/146099520?v=4&size=512",
+    "description": "Repositori Ekstensi CloudStream Pribadi Milik Cxrsf",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://cdn.jsdelivr.net/gh/cxrsfexploit27/cxrsfcloud@builds/plugins.json"
+    ]
+}
