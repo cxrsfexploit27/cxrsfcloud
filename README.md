@@ -1,58 +1,67 @@
-**⚠️ This is currently under development, dont use it yet if you're not comfortable with constantly merging new changes**
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/146099520?v=4&size=512" width="120" height="120" style="border-radius: 50%;" />
+  <h1>☁️ Cxrsf Cloud — CloudStream Repo</h1>
+  <p>Repositori ekstensi CloudStream pribadi milik <strong>Cxrsf</strong>, berisi plugin streaming berbahasa Indonesia.</p>
 
-# `Cloudstream3 Plugin Repo Template`
+  <img src="https://img.shields.io/badge/CloudStream-3-blueviolet?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Language-Indonesia-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Plugins-2-green?style=for-the-badge" />
+</div>
 
-Template for a [Cloudstream3](https://github.com/recloudstream) plugin repo
+---
 
-**⚠️ Make mesti you check "Include all branches" when using this template**
+## 📦 Cara Menambahkan Repo
 
- 
-## Getting started with writing your first plugin
+1. Buka aplikasi **CloudStream**
+2. Masuk ke **Settings → Extensions → Add Repository**
+3. Tempel URL berikut:
 
-This template includes 1 example plugin.
+```
+https://raw.githubusercontent.com/cxrsfexploit27/cxrsfcloud/refs/heads/master/repo.json
+```
 
-1. Open the root build.gradle.kts, read the comments and replace all the placeholders
-2. Familiarize yourself with the project structure. Most files are commented
-3. Build or deploy your first plugin using:
-   - Windows: `.\gradlew.bat ExampleProvider:make` or `.\gradlew.bat ExampleProvider:deployWithAdb`
-   - Linux & Mac: `./gradlew ExampleProvider:make` or `./gradlew ExampleProvider:deployWithAdb`
+4. Tekan **Add** dan install plugin yang kamu inginkan ✅
 
+---
 
-## Granting All Files Access on Newer Android Devices
+## 🧩 Daftar Plugin
 
-For local plugin testing, you need to grant the app "All Files Access" on newer Android devices (Android 11 and above). Here’s how to do it:
+### 🎌 AnichinProvider
 
-### Using ADB
+> Streaming Donghua Subtitle Indonesia
 
-* `adb shell appops set --uid PACKAGE_NAME MANAGE_EXTERNAL_STORAGE allow`
-* Replace `PACKAGE_NAME` with the name of the package for the Cloudstream3 version you are using:
-   - debug: `com.lagradost.cloudstream3.prerelease.debug`
-   - prerelease: `com.lagradost.cloudstream3.prerelease`
-   - stable: `com.lagradost.cloudstream3`
+| Info        | Detail                               |
+| ----------- | ------------------------------------ |
+| 🌐 Sumber   | [anichin.club](https://anichin.club) |
+| 🗂️ Kategori | Anime, AnimeMovie, Cartoon           |
+| 🌍 Bahasa   | Indonesia                            |
+| 👤 Author   | Cxrsf                                |
+| 🔢 Versi    | 2                                    |
 
-### Manually
+---
 
-1. **Open Settings**: Go to your device’s Settings menu.
+### 🎬 Cinemax21Provider
 
-2. **Navigate to Special Access**:
-   - Tap on "Apps & notifications" or "Apps".
-   - Select "Special app access" or "Special access".
+> Streaming Movie dan TV Series Subtitle Indonesia
 
-3. **Select All Files Access**:
-   - Tap on "All files access".
-   - It may be under the three vertical dots menu towards the top of the screen.
+| Info        | Detail                           |
+| ----------- | -------------------------------- |
+| 🌐 Sumber   | [klikxxi.me](https://klikxxi.me) |
+| 🗂️ Kategori | Movie, TvSeries, AsianDrama      |
+| 🌍 Bahasa   | Indonesia                        |
+| 👤 Author   | Cxrsf                            |
+| 🔢 Versi    | 1                                |
 
-4. **Grant Access to the App**: Find the app in the list and tap on it to toggle it, if it is not already enabled.
+---
 
-6. **Restart the App**: Close and reopen the app to apply the changes.
+## ⚠️ Disclaimer
 
+> Repositori ini dibuat untuk keperluan pribadi.
+> Seluruh konten yang dapat diakses melalui plugin ini berasal dari sumber pihak ketiga.
+> Pemilik repo tidak bertanggung jawab atas penyalahgunaan ekstensi ini.
 
-## License
+---
 
-Everything in this repo is released into the public domain. You may use it however you want with no conditions whatsoever
-
-
-## Attribution
-
-This template as well as the gradle plugin and the whole plugin system is **heavily** based on [Aliucord](https://github.com/Aliucord).
-*Go use it, it's a great mobile discord client mod!*
+<div align="center">
+  <sub>Made with ❤️ by <a href="https://github.com/cxrsfexploit27">Cxrsf</a></sub>
+</div>
