@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/146099520?v=4&size=512" width="120" height="120" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/u/286491842?v=4&size=512" width="120" height="120" style="border-radius: 50%;" />
   <h1>☁️ Cxrsf Cloud — CloudStream Repo</h1>
   <p>Repositori ekstensi CloudStream pribadi milik <strong>Cxrsf</strong>, berisi plugin streaming berbahasa Indonesia.</p>
 
